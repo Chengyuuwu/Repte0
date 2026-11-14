@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Números</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .error { color: red; font-weight: bold; } /* */
+        .exito { color: green; font-weight: bold; } /*[cite: 4] */
+    </style>
+</head>
+<body>
+    <label for="entradaDatos">Introduce un número (escribe texto para error de opción, o un 5 para error de código):</label>
+    <input type="text" id="entradaDatos" placeholder="Escribe aquí...">
+    <button onclick="avaluarEntrada()">Comprobar</button>
+
+    <p id="mensaje"></p>
+
+    <!-- Enlace al archivo JS -->
+    <script src="CodiError/error.js"></script>
+</body>
+</html>
